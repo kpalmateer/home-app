@@ -1,0 +1,70 @@
+$font-home-main: Helvetica, Arial, sans-serif;
+$color-green-main: #114E32;
+$color-brown-lt: #7B4F1A;
+$color-brown-dk: #4E3211;
+
+.resume {
+    font-family: Futura, Helvetica, sans-serif;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.contact-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    border: $color-brown-dk solid 4px;
+    border-radius: .5em;
+    padding: .5em;
+    margin: .4em;
+}
+
+.background-block {
+    border: $color-brown-dk solid 4px;
+    border-radius: .5em;
+    padding: .5em;
+    margin: .4em;
+}
+
+.experience-block {
+    border: $color-brown-dk solid 4px;
+    border-radius: .5em;
+    padding: .5em;
+    margin: .4em;
+}
+
+.experience-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+}
+
+.skills-block {
+    border: $color-brown-dk solid 4px;
+    border-radius: .5em;
+    padding: .5em;
+    margin: .4em;
+}
+
+.education-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+}
+
+.education-block {
+    border: $color-brown-dk solid 4px;
+    border-radius: .5em;
+    padding: .5em;
+    margin: .4em;
+}
+
+.right-align {
+    text-align: right;
+}
